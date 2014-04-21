@@ -1,0 +1,25 @@
+# Python flash REST api demo app
+Run Server:
++++++++++++
+
+Command: 
+1. sudo python run.py
+
+OR
+
+2. sudo ./run.py
+
+Service End points:
++++++++++++++++++++
+
+1. List all tasks 
+http://localhost:5000/todo/api/v1.0/tasks/
+
+Description: List all tasks
+
+
+2. Get Indivisual task
+http://localhost:5000/todo/api/v1.0/tasks/1
+
+Description: List single task
+
